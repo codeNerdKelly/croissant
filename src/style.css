@@ -1,3 +1,10 @@
+:root {
+    --navbar-color: #7F5539;
+    --text-background:#E6CCB2;
+    --border-color: #9C6644;
+    --text-color: #EDE0D4;
+}
+
 @media (min-width: 768px){
 
     h1 {
@@ -18,6 +25,14 @@ h1 {
     margin-bottom: 25px;
 }
 
+p {
+    text-align: center;
+    padding: 15px 35px;
+}
 .open-quote {
     text-align: center;
+}
+
+.col-md-6 {
+    background: var(--text-bacground);
 }
